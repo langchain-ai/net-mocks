@@ -1,0 +1,52 @@
+{
+  "name": "@langchain/net-mocks",
+  "version": "0.0.1",
+  "description": "Capture & replay network activity for tests",
+  "main": "src/index.ts",
+  "type": "module",
+  "keywords": [],
+  "author": "LangChain",
+  "license": "MIT",
+  "scripts": {
+    "test:int": "vitest run --config=example/vitest.config.ts",
+    "lint": "eslint --cache  src/",
+    "lint:fix": "pnpm lint --fix",
+    "format": "prettier --write \"src\"",
+    "format:check": "prettier --check \"src\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:langchain-ai/net-mocks.git"
+  },
+  "dependencies": {
+    "@mswjs/interceptors": "^0.39.2",
+    "cookie": "^1.0.2",
+    "deep-equal": "^2.2.3"
+  },
+  "peerDependencies": {
+    "vitest": "^3.2.4"
+  },
+  "peerDependenciesMeta": {
+    "vitest": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@langchain/anthropic": "^1.0.0",
+    "@langchain/core": "^1.0.2",
+    "@tsconfig/recommended": "^1.0.11",
+    "@types/deep-equal": "^1.0.4",
+    "@types/node": "^24.10.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-comment-length": "^2.2.2",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-import-helpers": "^2.0.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.3",
+    "vitest": "^3.2.4"
+  },
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+}

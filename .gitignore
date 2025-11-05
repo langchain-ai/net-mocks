@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+.npm/
+
+# pnpm
+pnpm-lock.yaml
+.pnpm-store/
+.pnpm/
+
+# Build artifacts
+dist/
+build/
+out/
+.eslintcache
+
+# IDE and OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
