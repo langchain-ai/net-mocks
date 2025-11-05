@@ -26,6 +26,9 @@
     "type": "git",
     "url": "git@github.com:langchain-ai/net-mocks.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@mswjs/interceptors": "^0.39.2",
     "cookie": "^1.0.2",
