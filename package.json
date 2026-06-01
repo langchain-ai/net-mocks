@@ -35,7 +35,7 @@
     "deep-equal": "^2.2.3"
   },
   "peerDependencies": {
-    "vitest": "^3.2.4"
+    "vitest": "^4.1.8"
   },
   "peerDependenciesMeta": {
     "vitest": {
@@ -57,7 +57,7 @@
     "prettier": "^3.6.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.3",
-    "vitest": "^3.2.4"
+    "vitest": "^4.1.8"
   },
   "files": [
     "dist/",
